@@ -18,7 +18,7 @@
     height: 100%;
     margin-bottom: 0;
 
-    mar a {
+     a {
         color: black;
         text-decoration: none;
     }
@@ -257,4 +257,88 @@ left: 9%;
 .container-collection{
 max-width: 1100px;
 margin: 0 auto;
+}
+
+.container_offer{
+    max-width: 1400px;
+    margin: 80px auto;
+    background-image: url(https://preview.colorlib.com/theme/estore/assets/img/collection/latest-offer.png.webp);
+
+    height: 402px;
+    position: relative;
+
+    img{
+        width: 100%;
+        
+    }
+    
+}
+.offerimg{
+    position: absolute;
+}
+.container_offercont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    input{
+        border-radius: 30px;
+        width: 300px;
+        height: 50px;
+        border: 0;
+    }
+}
+.container_info{
+    max-width: 1100px;
+    margin: 100px auto;
+
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container_photos{
+    max-width: 1500px;
+    margin: 80px auto;
+}
+.photo img{
+    width: 95%;
+   
+}
+.photos{
+    display: flex;
+    justify-content: center;
+}
+
+.link-secondary{
+    text-decoration: none;
+}
+.container_info{
+    li{
+        list-style-type: none;
+    }
+}
+.footinf{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+.fdd{
+float: right;
+}
+.icons{
+   display: flex;
+   gap: 10px;
 }

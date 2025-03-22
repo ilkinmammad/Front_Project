@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navarea {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navlist {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    margin-bottom: 0;
+
+     a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .btn {
+        background-color: transparent;
+        border: 0;
+        color: black;
+    }
+}
+
+.col-5 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .searching {
+        position: relative;
+
+        input {
+            border: 1px solid #eeeeee;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+
+        .search-icon {
+            position: absolute;
+            top: 12px;
+            right: 17px;
+        }
+    }
+
+}
+
+.favorit-items {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #eeeeee;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.shopping-card {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #eeeeee;
+    color: #4e4e4e;
+    font-size: 14px;
+    cursor: pointer;
+}
+.firstbck{
+background-image: url(https://preview.colorlib.com/theme/estore/assets/img/hero/category.jpg.webp);
+width:100% ;
+height: 300px;
+background-position: center center;
+margin-bottom: 100px;
+}
+.productcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* ilk hisse */
+.container_login{
+    max-width: 1100px;
+    margin: 100px auto;
+}
+.loginback{
+    background-color: #4B3049;
+    height: 600px;
+    width: 550px;
+    color: white;
+    font-weight: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    width: 550px!important;
+}
+.col-6{
+    
+}
+.logincont button{
+width: 150px;
+height: 40px;
+background-color: transparent;
+border-radius: 5px;
+border: 1px solid white;
+color: white;
+}
+.logincont{
+    width: 450px;
+    
+}
+
+.loginsag{
+    padding: 80px 70px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 80px;
+    a{
+        text-decoration: none;
+    }
+}
+.inp{
+    border-bottom:1px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 40px;
+}
+.loginbtn{
+    border: 1px solid #0d6efd;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #0d6efd;
+}
+.loginbtn:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+
+
+/* son hisse  */
+
+.container_info{
+    li{
+        list-style-type: none;
+    }
+}
+.footinf{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+.fdd{
+float: right;
+}
+.icons{
+   display: flex;
+   gap: 10px;
+}
+.container_info{
+    max-width: 1100px;
+    margin: 150px auto;
+}
+

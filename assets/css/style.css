@@ -17,6 +17,9 @@
     gap: 10px;
     height: 100%;
     margin-bottom: 0;
+    @media screen and (min-width:201px) and (max-width:991px) {
+        display: none; 
+    }
 
      a {
         color: black;
@@ -27,6 +30,7 @@
         background-color: transparent;
         border: 0;
         color: black;
+        
     }
 }
 
@@ -37,6 +41,9 @@
 
     .searching {
         position: relative;
+        @media screen and (min-width:201px) and (max-width:991px) {
+            display: none;
+        }
 
         input {
             border: 1px solid #eeeeee;
@@ -49,8 +56,51 @@
             top: 12px;
             right: 17px;
         }
-    }
 
+    }
+    
+    
+}
+
+.navbar-button {
+    a {
+        @media screen and (min-width:201px) and (max-width:991px) {
+            display: none;
+        }
+    }
+}
+
+.hero-img {
+    img {
+        height: 600px;
+
+        @media screen and (min-width:301px) and (max-width:700px) {
+            height: 300px!important;
+        }
+
+        @media screen and (min-width:701px) and (max-width:1091px) {
+            height: 400px;
+        }
+
+        
+    }
+}
+
+.hero .row {
+    flex-wrap: nowrap;
+}
+
+.hero .row .col-6 {
+
+    @media screen and (min-width:301px) and (max-width:700px) {
+        width: 30%!important;
+    }
+    
+}
+
+.hero .row .col-xl-5 {
+    width: 50%!important;
+    justify-content: center;
 }
 
 .favorit-items {
@@ -62,6 +112,18 @@
     border: 1px solid #eeeeee;
     font-size: 19px;
     cursor: pointer;
+
+    @media screen and (min-width:201px) and (max-width:991px) {
+        display: none;
+    }
+}
+
+.hamburger-menu {
+    display: none;
+
+    @media screen and (min-width:201px) and (max-width:991px) {
+        display: block;
+    }
 }
 
 .shopping-card {
@@ -77,6 +139,10 @@
 }
 .hero{
     background-color: #aecee1;
+
+    .row {
+        margin: 0;
+    }
 }
 .hero_btn .btn{
     background-color: #0d6efd;
@@ -86,6 +152,9 @@
 display: flex;
 align-items: center;
 font-size: 40px;
+width: 100%;
+
+
 }
 .hero_category .col-12{
 font-size: 60px;
@@ -128,6 +197,10 @@ display: flex;
 .hero_caption{
     h1{
         font-size: 100px;
+        @media screen and (min-width:301px) and (max-width:1091px) {
+            font-size: 60px;
+        }
+        
     }
 }
 .latest_product li a{

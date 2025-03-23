@@ -95,9 +95,10 @@ margin-bottom: 100px;
     margin: 100px auto;
 }
 .loginback{
-    background-color: #4B3049;
-    height: 600px;
-    width: 550px;
+    background-color: #0d6efd;
+    height: 530px;
+    width: 600px;
+    border-radius: 35% 20px;
     color: white;
     font-weight: 6px;
     display: flex;
@@ -123,13 +124,9 @@ color: white;
     width: 450px;
     
 }
-.linkaccount{
-    color: #eeeeee;
-    text-decoration: none;
-}
 
 .loginsag{
-    padding: 80px 70px;
+    padding: 0 80px;
 }
 .inputs{
     display: flex;

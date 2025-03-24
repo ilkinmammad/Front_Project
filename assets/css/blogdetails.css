@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navarea {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navlist {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    margin-bottom: 0;
+
+     a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .btn {
+        background-color: transparent;
+        border: 0;
+        color: black;
+    }
+}
+
+.col-5 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .searching {
+        position: relative;
+
+        input {
+            border: 1px solid #eeeeee;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+
+        .search-icon {
+            position: absolute;
+            top: 12px;
+            right: 17px;
+        }
+    }
+
+}
+
+.favorit-items {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #eeeeee;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.shopping-card {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #eeeeee;
+    color: #4e4e4e;
+    font-size: 14px;
+    cursor: pointer;
+}
+.firstbck{
+background-image: url(https://preview.colorlib.com/theme/estore/assets/img/hero/category.jpg.webp);
+width:100% ;
+height: 300px;
+background-position: center center;
+margin-bottom: 100px;
+}
+.productcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* ilk hisse */
+
+.container_blog {
+    max-width: 1250px;
+    margin: 100px auto;
+}
+
+.dateblog {
+    width: 92px;
+    height: 92px;
+    background-color: red;
+    color: #eeeeee;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size: 22px;
+
+    }
+}
+
+.blogimg {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+}
+
+.blogcont {
+    margin: 80px 30px;
+}
+
+.firstblog {
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+    width: 100%;
+}
+
+.comentblog {
+    height: 40px;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+        height: 100%;
+
+        li {
+            display: flex;
+            gap: 10px;
+            text-align: center;
+            height: 100%;
+
+        }
+    }
+}
+.inputse {
+    width: 320px;
+    height: 55px;
+    border: 0.8px;
+
+}
+
+.searchbtn {
+    background-color:#2577fd ;
+    width: 320px;
+    height: 55px;
+    color: white;
+border: 0;
+}
+.searchbtn:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid red;
+}
+
+
+.searchinput {
+    padding: 30px;
+    background-color:#fbf9ff;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.categorylist{
+    padding: 30px;
+    background-color:#fbf9ff;
+    font-size: 20px;
+    ul{
+        list-style-type: none;
+        padding: 0!important;
+    }
+}
+.aside{
+    gap: 40px;
+    display: flex;
+flex-direction: column;
+
+}
+.post{
+    display: flex;
+    gap: 20px;
+}
+.listpost{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.listtags{
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+   li{
+    button{
+        border: 1px solid rgb(193, 193, 193);
+        background-color: white;
+    }
+   }
+}
+.listimgs{
+    display: flex;
+row-gap: 20px;
+column-gap: 30px;
+flex-wrap: wrap;
+li{
+    img{
+        width: 110%;
+    }
+}
+}
+.searchsubs{
+    padding: 30px;
+    background-color:#fbf9ff;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.p3{
+
+
+}
+.pat{
+    padding: 40px;
+    background-color:#ffffff;
+    border: 40px solid #f3f0fa;
+}
+.logosol{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.logoss{
+display: flex;
+justify-content:space-between ;
+
+}
+.logosag{
+    
+        gap: 20px;
+        display: flex;
+
+}
+
+
+
+
+
+
+
+
+/* son hisse  */
+
+.container_info{
+    li{
+        list-style-type: none;
+    }
+}
+.footinf{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+.fdd{
+float: right;
+}
+.icons{
+   display: flex;
+   gap: 10px;
+}
+.container_info{
+    max-width: 1100px;
+    margin: 150px auto;
+}

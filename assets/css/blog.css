@@ -17,8 +17,11 @@
     gap: 10px;
     height: 100%;
     margin-bottom: 0;
+    @media screen and (min-width:201px) and (max-width:991px) {
+        display: none; 
+    }
 
-    a {
+     a {
         color: black;
         text-decoration: none;
     }
@@ -27,6 +30,7 @@
         background-color: transparent;
         border: 0;
         color: black;
+        
     }
 }
 
@@ -37,6 +41,9 @@
 
     .searching {
         position: relative;
+        @media screen and (min-width:201px) and (max-width:991px) {
+            display: none;
+        }
 
         input {
             border: 1px solid #eeeeee;
@@ -49,8 +56,51 @@
             top: 12px;
             right: 17px;
         }
-    }
 
+    }
+    
+    
+}
+
+.navbar-button {
+    a {
+        @media screen and (min-width:201px) and (max-width:991px) {
+            display: none;
+        }
+    }
+}
+
+.hero-img {
+    img {
+        height: 600px;
+
+        @media screen and (min-width:301px) and (max-width:700px) {
+            height: 300px!important;
+        }
+
+        @media screen and (min-width:701px) and (max-width:1091px) {
+            height: 400px;
+        }
+
+        
+    }
+}
+
+.hero .row {
+    flex-wrap: nowrap;
+}
+
+.hero .row .col-6 {
+
+    @media screen and (min-width:301px) and (max-width:700px) {
+        width: 30%!important;
+    }
+    
+}
+
+.hero .row .col-xl-5 {
+    width: 50%!important;
+    justify-content: center;
 }
 
 .favorit-items {
@@ -62,6 +112,18 @@
     border: 1px solid #eeeeee;
     font-size: 19px;
     cursor: pointer;
+
+    @media screen and (min-width:201px) and (max-width:991px) {
+        display: none;
+    }
+}
+
+.hamburger-menu {
+    display: none;
+
+    @media screen and (min-width:201px) and (max-width:991px) {
+        display: block;
+    }
 }
 
 .shopping-card {
@@ -96,6 +158,23 @@
 .container_blog {
     max-width: 1250px;
     margin: 100px auto;
+
+    @media screen and (max-width:1180px)  {
+        .row {
+            justify-content: center;
+    
+        }
+    
+        .col-8 {
+            
+            width: 80%!important;
+        }
+        .col-4 {
+            width: 80%!important;
+        }
+    }
+
+    
 }
 
 .dateblog {
@@ -258,6 +337,26 @@ justify-content: center;
     li {
         list-style-type: none;
     }
+
+    .row {
+        @media screen and (max-width:661px) {
+            justify-content: center;
+        }
+    }
+
+    .col-8 {
+        @media screen and (max-width:661px) {
+            width: 80%!important;
+            text-align: center;
+        }
+    }
+
+    .col-4 {
+        @media screen and (max-width:661px) {
+            width: 80%!important;
+            justify-content: center;
+        }
+    }
 }
 
 .footinf {
@@ -273,6 +372,37 @@ justify-content: center;
         a {
             text-decoration: none;
         }
+    }
+}
+
+.footer {
+    .row {
+        @media screen and (max-width:991px) {
+            justify-content: center;
+            margin-left: 20px;
+        }
+
+        @media screen and (max-width:601px) {
+            justify-content: center;
+            margin-left: 0px;
+        }
+    }
+}
+
+
+.footinf{
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    @media screen and (max-width:991px) {
+        width: 48%!important;
+    }
+
+    @media screen and (max-width:661px) {
+        width: 60%!important;
     }
 }
 

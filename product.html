@@ -14,89 +14,93 @@
 </head>
 
 <body>
-    <header>
-        <section class="container">
-            <div class="row navarea">
-                <div class="col-1">
-                    <b class="fs-2 text">Estore.</b>
+  <header>
+    <section class="container">
+        <div class="row navarea">
+            <div class="col-1">
+                <b class="fs-2 text">Estore.</b>
 
 
 
+            </div>
+            <div class="col-6 ">
+                <ul class="navlist">
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href=""> Catagori</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Latest
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="product.html">Praduct List</a></li>
+                                <li><a class="dropdown-item" href="details.html">Praduct details</a></li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Blog
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="blogdetails.html">Blog Details</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                <li><a class="dropdown-item" href="shopping.html">Shopping card</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+
+            </div>
+            <div class="col-5">
+
+                <div class="searching">
+                    <input type="text" name="Search" placeholder="Search products">
+                    <div class="search-icon">
+                        <i class="fas fa-search special-tag"></i>
+                    </div>
                 </div>
-                <div class="col-6 ">
-                    <ul class="navlist">
-                        <li><a href="index.html"> Home</a></li>
-                        <li><a href=""> Catagori</a></li>
-                        <li>
-                            <div class="dropdown">
-                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Latest
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="product.html">Praduct List</a></li>
-                                    <li><a class="dropdown-item" href="details.html">Praduct details</a></li>
-                                    
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="dropdown">
-                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Blog
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-                                    <li><a class="dropdown-item" href="blogdetails.html">Blog Details</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="dropdown">
-                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Pages
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
-                                    <li><a class="dropdown-item" href="shopping.html">Shopping card</a></li>
-                                    
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="contact.html"> Contact</a></li>
-                    </ul>
 
+
+                <div>
+                    <div class="favorit-items">
+                      <i class="fa-regular fa-heart fa-l"></i>
+
+                    </div>
                 </div>
-                <div class="col-5">
+                <div>
+                    <div class="shopping-card">
+                        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="navbar-button">
+                    <a class="btn btn-primary" href="login.html" role="button">Sign in</a>
+                </div>
 
-                    <div class="searching">
-                        <input type="text" name="Search" placeholder="Search products">
-                        <div class="search-icon">
-                            <i class="fas fa-search special-tag"></i>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <div class="favorit-items">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="shopping-card">
-                            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-                        </div>
-                    </div>
-                    <div>
-                        <a class="btn btn-primary" href="#" role="button">Sign in</a>
-                    </div>
+                <div class="hamburger-menu">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
+        </div>
 
-        </section>
-    </header>
+    </section>
+</header>
 
     <main>
         <section class="firstbck">
@@ -106,7 +110,7 @@
         </section>
 
         <section class="container">
-        <div class="row mb-5">
+        <div class="row colbetween mb-5">
             <div class="col-4 dropdown-searchingg">
                 <div class="searchinput">
                     <input type="text" placeholder="   Search Keyword">
@@ -130,8 +134,8 @@
                                     <li><a class="dropdown-item" href="#">Shopping card</a></li>
                     </ul>
                   </div>
-
             </div>
+
             <div class="col-8 cards">
                 <div class="card border-0">
                     <img src="./assets/images/product4.png.webp" class="card-img-top" alt="...">
